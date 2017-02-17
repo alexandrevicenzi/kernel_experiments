@@ -13,4 +13,5 @@ Learn more about Linux and improve C skills.
 ## Documentation
 
 You will find more inside the project folder.
-Every directory is a project and will have README a Makefile and at least one file code.
+
+Every directory is a project and will have a README, Makefile and at least one file code.

@@ -6,7 +6,7 @@ Pulse Audio example
 
 This is a command line similar to `paman` (PulseAudio Manager)
 
-## What dos it do?
+## What does it do?
 
 - [x] Show server information
 - [ ] Show device list

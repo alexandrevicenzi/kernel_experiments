@@ -114,11 +114,11 @@ void state_changed(pa_context *c, void *userdata)
 {
     if (pa_context_get_state(c) == PA_CONTEXT_READY)
     {
-        // get the server info.
+        // get server info.
         if (pa_context_get_server_info(c, print_server_info, NULL) < 0)
             printf("pa_context_get_server_info failed\n");
 
-        // get the loaded modules.
+        // get loaded modules.
         if (pa_context_get_module_info_list(c, print_modules, NULL) < 0)
             printf("pa_context_get_module_info_list failed\n");
 
